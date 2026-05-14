@@ -1,0 +1,15 @@
+print('='*30)
+print('TABELA DO BRASILEIRÃO 10/04/26')
+print('='*30)
+tabela = ('Palmeiras','São Paulo','Fluminense','Flamengo','Bahia','Atlético-PR',
+          'Curitiba','Atlético-MG','Bragantino','Botafogo','Grêmio','Vasco','Internacional'
+              ,'Vitória','Santos','Corinthians','Chapecoense','Remo','Cruzeiro','Mirassol')
+tabela_ord = sorted(tabela)
+print(f'Os 5 primeiros times da tabela são: {tabela[0:5]}.')
+print('-='*100)
+print(f'Os que estão na zona de rebaixamento: {tabela[-4:]}.')
+print('-='*100)
+print(f'Os times em ordem alfabética são: {tabela_ord}.')
+print('-='*100)
+print(f'O Chapeconse está na posição {tabela.index('Chapecoense')}°.')
+print('-='*100)
